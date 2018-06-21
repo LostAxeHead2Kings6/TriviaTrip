@@ -97,7 +97,7 @@ li:hover {
   width: 60%;
   height: 30vw;
   background-color: #fff1ad;
-  background: url('images/yellowPaper.jpg') no-repeat;
+  background: url('yellowPaper.jpg') no-repeat;
   background-blend-mode: color;
   border-radius: 25px;
 }

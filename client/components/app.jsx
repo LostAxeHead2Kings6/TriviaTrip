@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   chooseCategory(categoryNum) {
-    axios.get(`https://opentdb.com/api.php?amount=5&category=${categoryNum}&difficulty=medium&type=multiple`)
+    axios.get('/questions', {params: {categoryNum: categoryNum} })
     .then((response) => {      this.setState({
         questions: response.data.results,
         phase: 'quiz',

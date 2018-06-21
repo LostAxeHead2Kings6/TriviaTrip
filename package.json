@@ -4,7 +4,8 @@
   "description": "test your knowledge in one of 6 categories!",
   "main": "index.js",
   "scripts": {
-    "react-dev": "webpack -d --watch"
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,11 +24,15 @@
   "homepage": "https://github.com/LostAxeHead2Kings6/triviaQuickDraw#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
     "react": "^16.4.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-addons-update": "^15.6.2",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
